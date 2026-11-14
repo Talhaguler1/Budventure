@@ -49,3 +49,9 @@ See `tests/student-journey.test.cjs` and `TESTING.md`. Browser visual QA remains
 ## Deployment
 
 Static Sites configuration is in `.openai/hosting.json`. The dedicated source repository is https://github.com/Talhaguler1/Budventure.
+
+## Compact walkthrough layout
+
+The desktop layout places trip fields, lifestyle choices and the destination summary beside each other at widths of 1200px and above. A six-part journey rail keeps the walkthrough visible. Monthly allocation is drawn directly from the budget model; secondary explanations and the expense form expand on request. Mobile uses readable stacked panels and touch-sized controls rather than shrinking the desktop layout.
+
+The city illustration is an original decorative neighbourhood drawing, not a geographic map. Restaurant, coffee and park photos are illustrative Unsplash images (source URLs recorded in `dist/assets/SOURCES.md`), not photos of the fictional listed businesses.
