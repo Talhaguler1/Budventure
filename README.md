@@ -55,3 +55,9 @@ Static Sites configuration is in `.openai/hosting.json`. The dedicated source re
 The desktop layout places trip fields, lifestyle choices and the destination summary beside each other at widths of 1200px and above. A six-part journey rail keeps the walkthrough visible. Monthly allocation is drawn directly from the budget model; secondary explanations and the expense form expand on request. Mobile uses readable stacked panels and touch-sized controls rather than shrinking the desktop layout.
 
 The city illustration is an original decorative neighbourhood drawing, not a geographic map. Restaurant, coffee and park photos are illustrative Unsplash images (source URLs recorded in `dist/assets/SOURCES.md`), not photos of the fictional listed businesses.
+
+## Brand identity
+
+![Budventure](dist/assets/budventure-logo.png)
+
+The owner-supplied Budventure identity replaces the temporary text mark in the desktop sidebar and mobile header. `dist/brand.css` controls logo sizing and small sunshine-yellow accents while retaining the purple/green interface. The same image is linked as the browser icon.
